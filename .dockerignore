@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Training data (not needed in production)
+ccpa_training_data_*.json
+generate_training_data.py
+train_*.py
+fine_tune_*.py
+
+# Documentation
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Test files
+test_*.py
+validate_*.py
+examples.bat
+examples.sh
+
+# Old models (only include the best one)
+ccpa_model/
+ccpa_model_multilabel_enhanced/
+
+# Kiro
+.kiro/
+
+# Other
+.DS_Store
+Thumbs.db
